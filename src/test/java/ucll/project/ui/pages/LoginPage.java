@@ -30,7 +30,7 @@ public class LoginPage {
     }
 
     public void navigateTo(){
-        driver.get("http://localhost:8080/user/login");
+        driver.get("http://localhost:8080/app/user/login");
     }
 
     public String getPageTitle(){

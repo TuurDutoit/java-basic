@@ -36,7 +36,7 @@ public class LoginPageTest {
     @Test
     public void LoginTestExpectSuccessV1(){
 
-        driver.get("http://localhost:8080/user/login");
+        driver.get("http://localhost:8080/app/user/login");
         driver.findElement(By.id("usernameInput")).sendKeys("user");
         driver.findElement(By.id("passwordInput")).sendKeys("user");
         driver.findElement(By.id("submitButton")).click();

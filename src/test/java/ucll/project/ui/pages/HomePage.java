@@ -25,7 +25,7 @@ public class HomePage {
     }
 
     public HomePage navigateTo(){
-        driver.get("http://localhost:8080/");
+        driver.get("http://localhost:8080/app");
         return this;
     }
 
